@@ -139,11 +139,8 @@
         Next
     End Sub
 
-    Sub whileWendLoop()
-        Dim counter
-        counter = 1
 
-        While counter < 11
+    While counter < 11
             Console.WriteLine(counter)
             counter = counter + 1
             Threading.Thread.Sleep(500)
